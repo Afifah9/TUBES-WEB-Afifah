@@ -1,0 +1,155 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #6c757d; /* Abu-abu */
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 4px solid #5a6268;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Carousel Styling */
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin: 20px 0;
+}
+
+.carousel img {
+    width: 100%;
+    max-height: 300px;
+    scroll-snap-align: center;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Service Menu Styling */
+.service-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #e9ecef; /* Abu-abu muda */
+    border-top: 1px solid #dee2e6;
+}
+
+.service-item {
+    text-align: center;
+    padding: 30px;
+    border: 3px solid #ced4da;
+    border-radius: 8px;
+    background-color: #ffffff;
+    transition: transform 0.3s, background-color 0.3s;
+    max-width: 350px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.service-item:hover {
+    transform: scale(1.05);
+    background-color: #f8f9fa; /* Abu-abu terang */
+}
+
+.service-item img {
+    max-width: 180px;
+    margin-bottom: 20px;
+}
+
+/* Lists Styling */
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    background-color: #ffffff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #6c757d; /* Abu-abu */
+}
+
+/* Buttons */
+button {
+    background-color: #6c757d; /* Abu-abu */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5a6268; /* Abu-abu tua */
+}
+
+/* Form Styling */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #495057;
+}
+
+form input, form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #495057;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    display: inline-block;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+}
+
+table th, table td {
+    border: 1px solid #ced4da;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #6c757d; /* Abu-abu */
+    color: white;
+}
+
+table td {
+    background-color: #f8f9fa; /* Abu-abu terang */
+}
